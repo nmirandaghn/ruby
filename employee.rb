@@ -2,7 +2,7 @@ class Employee
   attr_reader :name, :salary
 
   def name=(name)
-    if name.empty?
+    if name.blank?
       raise "Name can't be blank"
     end
     @name = name
