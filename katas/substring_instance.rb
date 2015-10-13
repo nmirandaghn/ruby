@@ -1,4 +1,4 @@
-def solution(full_text, search_text)
+def solution(full_text, search_text) # My solution
   mychars = full_text.chars
   count = 0
   while mychars.length > 0
@@ -11,7 +11,7 @@ def solution(full_text, search_text)
   count
 end
 
-def solution2(full_text, search_text)
+def solution2(full_text, search_text) # The best solution
   full_text.scan(search_text).size
 end
 
